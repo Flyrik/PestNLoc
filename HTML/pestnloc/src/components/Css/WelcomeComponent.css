@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.WelcomeContainer{
+    display: flex;
+    background-color : var(--pestnlocColor);
+    margin-top: 50px;
+    height: 380px;
+    width : 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.separingshowcar{
+    padding-left: 180px;
+}
+
+
+.formResearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 270px;
+    width: 70vh;
+    border-radius: 3px;
+    flex-direction: column;
+}
+
+
+.parallelebutton{
+    display: flex;
+    flex-direction: row;
+}
+
+.divButtonWelcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 20px;
+}
+
+.choiceCar{
+    margin : 1%;
+    background-color: var(--pestnlocColor);
+    color: black;
+    height: 20px;
+    width: 80%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    font-size: var(--sizeFontMobile);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.choiceCar2{
+    padding-bottom: 33px;
+    padding-top: 8px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+
+.thedates[type="search"],
+.thedates[type="date"]{
+    width: 35%;
+    max-height: 20px;
+   max-width: 120px;
+   min-width: 100px;
+   padding: 5px;
+    margin-top: 16px;
+    margin-left: 4px;
+   border: 1px solid ;
+   border-radius: 5px;
+   font-size: var(--sizeFontMobile);
+   font-weight: bold;
+}
+
+.divDateWelcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.divSearchWelcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.Weare{
+    font-weight: bold;
+}
+
+.We{
+    padding-top: 80px;
+}
+
+.separatingsearch{
+    margin-top : 30px;
+    min-width: 90px;
+}
+
+.ImageWelcome911{
+    width: 200px;
+    height: 111px;
+}
+
+@media (min-width: 768px){
+
+    .WelcomeContainer{
+        display: flex;
+        background-color : var(--pestnlocColor);
+        margin-top: 50px;
+        height: 550px;
+        width : 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .separingshowcar{
+        padding-left: 500px;
+    }
+
+    .ImageWelcome911{
+        width: 550px;
+        height: 302px;
+    }
+
+    .formResearch{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 470px;
+        width: 110vh;
+        border-radius: 3px;
+        flex-direction: column;
+
+    }
+
+    .choiceCar{
+        margin: 2%;
+        background-color: var(--pestnlocColor);
+        border: none;
+        border-radius: 5px;
+        padding-bottom: 25px;
+        padding-top: 10px;
+        font-size: var(--sizeFonTButton);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-weight: bold;
+        color: black;
+    }
+
+    .choiceCar2{
+        padding-bottom: 44px;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .parallelebutton{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .divButtonWelcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-top: 20px;
+    }
+
+    .thedates[type="search"],
+    .thedates[type="date"]{
+       width: 35%;
+       max-height: 30px;
+        max-width: 120px;
+        min-width: 100px;
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 22px;
+        border: 1px solid ;
+        border-radius: 5px;
+       font-size: var(--sizeFontMobile);
+        font-weight: bold;
+    }
+
+    .Showcarbutton{
+    }
+
+    .divDateWelcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left: 6px;
+    }
+
+    .divSearchWelcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+
+
+    .separatingsearch{
+        margin-top : 90px;
+        min-width: 90px;
+    }
+
+}

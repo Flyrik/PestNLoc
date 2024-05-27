@@ -1,0 +1,31 @@
+/*Variables*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+:root{
+    --mainFont : Arial, sans-serif;
+    --sizeFontMobile : 12px;
+    --sizeFontTablet : 20px;
+    --sizeFontDesktop : 19px;
+    --sizeFontContract: 16px;
+    --sizeFonTButton : 15px;
+    --svgSizeMobile : 35px;
+    --svgSizeTablet : 45px;
+    --sizeFontMobileFooter : 12px;
+    --sizeFontDesktopFooter : 20px;
+    --sizeFontTitle: 30px ;
+    --pestnlocColor : #F4CE14;
+    --fontColor : #45474B;
+    --whiteFontColor : #F5F7F8;
+
+}
+
+
+

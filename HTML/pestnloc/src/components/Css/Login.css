@@ -1,0 +1,143 @@
+body{
+    color : var(--fontColor);
+}
+
+
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/src/components/assets/loginbg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 380px;
+    width: 100%;
+}
+
+.divFormulaire{
+    background-color: var(--whiteFontColor);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+    border-radius: 25px;
+    border : 1px solid;
+    border-color: var(--pestnlocColor);
+}
+
+
+
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleLogin{
+    margin-top: 30px;
+}
+
+
+.inputEmail, .inputPassword{
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 15px ;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--pestnlocColor);
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    width: 80%;
+}
+.password-container{
+    display: flex;
+    justify-content: center;
+}
+
+.inputEmail:focus, .inputPassword:focus{
+    border-color: var(--pestnlocColor);
+}
+
+
+.submitLogin{
+    margin-top: 35px;
+    background-color: var(--pestnlocColor);
+    color: var(--fontColor);
+    border-radius: 5px;
+    font-size: var(--sizeFontMobile);
+    height: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80%;
+}
+
+.submitLogin:hover{
+    background-color: #c9a71b;
+    color: var(--whiteFontColor);
+}
+
+.linkSignup{
+    margin-top: 10px;
+    color: var(--fontColor);
+}
+
+.password-container {
+    position: relative;
+}
+
+.inputPassword {
+    padding-right: 30px;
+}
+
+.togglePassword {
+    position: absolute;
+    top: 80%;
+    right: 27px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.material-icons {
+    font-size: 24px;
+
+}
+
+@media (min-width: 768px){
+
+    .maindiv{
+        height: 410px;
+    }
+
+    .linkSignup{
+        margin-top: 20px;
+    }
+
+    .submitLogin{
+        font-size: var(--sizeFontTablet);
+    }
+}
+
+@media (min-width: 1024px){
+
+    .maindiv{
+        height: 480px;
+    }
+
+    .divFormulaire{
+        width: 25%;
+    }
+
+    .linkSignup{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .submitLogin{
+        font-size: 16px;
+    }
+
+}
